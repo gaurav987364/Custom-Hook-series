@@ -1,9 +1,8 @@
 
 
-
-
 const App = () => {
-  console.log("render")
+
+
   return (
     <div>
       Testing...hooks
@@ -12,3 +11,6 @@ const App = () => {
 }
 
 export default App
+
+
+
