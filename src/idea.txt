@@ -1,0 +1,56 @@
+1. useLocalStorage
+Problem Statement: Need to manage state that persists in localStorage, like user preferences or themes.
+
+Hint: Use useState to manage the state and useEffect to sync it with localStorage.
+
+2. useDebounce
+Problem Statement: Handle input changes in search or form fields without overwhelming API calls or re-renders.
+
+Hint: Use setTimeout in combination with useEffect to delay updates until the user has stopped typing.
+
+3. useIntersectionObserver
+Problem Statement: Need to detect when an element scrolls into view for lazy-loading images or triggering animations.
+
+Hint: Use the IntersectionObserver API and integrate it with a ref in React.
+
+4. useFetch
+Problem Statement: Simplify data fetching with built-in error handling and loading states.
+
+Hint: Wrap fetch or axios in a custom hook, returning data, error, and loading status.
+
+5. useWindowSize
+Problem Statement: Access and react to changes in the browser's window dimensions.
+
+Hint: Use the resize event listener and store the width/height in state.
+
+6. usePrevious
+Problem Statement: Keep track of a component's previous state or prop value.
+
+Hint: Use a ref to store the value from the previous render.
+
+7. useHover
+Problem Statement: Detect whether an element is being hovered over.
+
+Hint: Use onMouseEnter and onMouseLeave events in combination with a ref.
+
+8. useToggle
+Problem Statement: Simplify the logic for toggling boolean states (like modals or dropdowns).
+
+Hint: Use useState and return the state along with a function to toggle it.
+
+9. useScrollPosition
+Problem Statement: Track the scroll position of a page or an element.
+
+Hint: Use the scroll event listener and store the scroll position in state.
+
+10. useDarkMode
+Problem Statement: Enable dark mode with a toggle, persisting the preference across sessions.
+
+Hint: Combine useLocalStorage with a class toggler for the body element.
+
+Bonus Ideas
+useOnlineStatus: Detect if the user is online or offline.
+
+useOutsideClick: Detect clicks outside of a specified element for dropdowns or modals.
+
+useCountdown: Implement a timer for countdown logic.

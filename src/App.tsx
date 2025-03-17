@@ -1,26 +1,22 @@
-import { useRef, useState } from "react";
-import { useOutsideClick } from "./hooks/useOutsideClick";
+import { useInfiniteScroll } from "./hooks/useInfiniteScroll"
+
 
 const App = () => {
-  const divRef = useRef<HTMLDivElement>(null);
-  const [isOpen,setIsOpen] = useState(false);
-  // Add event listener to close the menu when clicked outside
-  useOutsideClick({ref:divRef,onOutsideClick:()=>setIsOpen(false)});
-
-  const handleClick = () => {
-    setIsOpen(!isOpen);
-  };
+  const {page,loading, showScrollToTop,ScrollToTop,reset} = useInfiniteScroll();
   return (
-    <div ref={divRef}>
-      <button onClick={handleClick}>Toggle Menu</button>
-      {isOpen && <div>Menu content</div>}
+    <div className=" w-full h-[150vh] flex flex-col items-center justify-center">
+      {loading && <div>Loading...</div>}
+      <h1>{page}</h1>
+      {showScrollToTop && (
+        <button onClick={()=>ScrollToTop()}>
+          Scroll to top
+        </button>
+      )}
+      <button onClick={reset}>
+        Reset
+      </button>
     </div>
   )
 }
 
-export default App;
-
-
-
-
-
+export default App
