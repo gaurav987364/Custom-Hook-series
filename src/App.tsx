@@ -1,6 +1,4 @@
-import { useInfiniteScroll } from "./hooks/useInfiniteScroll"
-
-
+import { useInfiniteScroll } from "./hooks/useInfiniteScroll";
 const App = () => {
   const {page,loading, showScrollToTop,ScrollToTop,reset} = useInfiniteScroll();
   return (
