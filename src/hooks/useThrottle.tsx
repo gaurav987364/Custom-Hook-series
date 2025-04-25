@@ -4,13 +4,13 @@ import { useCallback, useEffect, useRef } from "react";
 interface ThrottleOptions {
     leading?: boolean;
     trailing?: boolean;
-}
+};
   
 interface ThrottleProps<T extends (...args: any[]) => any> 
     extends ThrottleOptions {
     fn: T;
     delay: number;
-}
+};
 
 const useThrottle = <T extends (...args: any[]) => any>({
     fn,
