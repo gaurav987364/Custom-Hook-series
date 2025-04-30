@@ -1,7 +1,6 @@
-import UndoableCardManager from "./components/UndoRedoTest"
+import UndoableCardManager from "./components/UndoRedoTest";
 
 const App = () => {
-  
   return (
     <div className=" w-full min-h-screen bg-slate-400 ">
       <UndoableCardManager/>
@@ -9,4 +8,4 @@ const App = () => {
   )
 }
 
-export default App
+export default App;
