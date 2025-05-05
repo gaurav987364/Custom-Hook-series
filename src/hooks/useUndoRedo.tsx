@@ -1,10 +1,12 @@
-import { useCallback, useState } from 'react'
+import { useCallback, useState } from 'react';
 
 interface HistoryType<T> {
   past:T[];
   present:T;
   future:T[];
-}
+};
+
+
 const useUndoRedo = <T extends HistoryType<T>>(initialPresentState:T) => {
   const [state, setState] = useState<HistoryType<T>>({
     past:[],
@@ -69,7 +71,7 @@ const useUndoRedo = <T extends HistoryType<T>>(initialPresentState:T) => {
     canRedo,
     canUndo
   }
-}
+};
 
 export default useUndoRedo;
 

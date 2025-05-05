@@ -4,7 +4,7 @@ interface Props<T> {
     past:T[];
     present:T;
     future:T[];
-}
+};
 
 export const useP =<T extends Props<T>>(initialState:T) => {
   const [state,setState] = useState<Props<T>>({
@@ -59,4 +59,4 @@ export const useP =<T extends Props<T>>(initialState:T) => {
     canUndo,
     canRedo
   }
-}
+};
