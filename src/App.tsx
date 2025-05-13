@@ -3,7 +3,7 @@ import UndoableCardManager from "./components/UndoRedoTest";
 
 const App:React.FC = () => {
   return (
-    <div className=" w-full min-h-screen bg-slate-400 ">
+    <div className=" w-full min-h-screen bg-slate-500 border">
       <UndoableCardManager/>
     </div>
   )
