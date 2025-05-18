@@ -4,11 +4,11 @@
 
 export const useCancelPromise =<T extends Promise<T>>(promise:T) => {
  
-    //let variable cancel to store function
+    //let variable cancel to store function.
     let cancel;
 
     const wrappedPromise = new Promise((res,rej)=>{
-        cancel = ()=> rej(new Error("Promise Canelled."))
+        cancel = ()=> rej(new Error("Promise is Canelled."))
         promise.then(res).catch(rej);
     });
 
