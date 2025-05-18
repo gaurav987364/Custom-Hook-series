@@ -86,5 +86,5 @@ export const useInfiniteScroll = () => {
     };
   },[page,loading,throttleScroll]);
 
-  return {page, loading, showScrollToTop, ScrollToTop,reset};
+  return {page, loading, showScrollToTop, ScrollToTop, reset};
 };
