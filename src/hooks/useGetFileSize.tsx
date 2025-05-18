@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react"
+import { useEffect, useState } from "react";
 
 export const useGetFileSize = (size:number) => {
  const [fileSize,setFileSize] = useState<string>("");
@@ -22,4 +22,4 @@ export const useGetFileSize = (size:number) => {
  },[size]);
 
  return {fileSize};
-}
+};
