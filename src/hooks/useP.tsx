@@ -58,5 +58,5 @@ export const useP =<T extends Props<T>>(initialState:T) => {
     redo,
     canUndo,
     canRedo
-  }
+  };
 };
