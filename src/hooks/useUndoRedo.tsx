@@ -20,7 +20,7 @@ const useUndoRedo = <T extends HistoryType<T>>(initialPresentState:T) => {
         past:[...past,present],   //set only past & current value
         present:newPresentState,  //updated new value
         future:[]
-      }))
+      }));
     },
     [setState]
   );
@@ -36,7 +36,7 @@ const useUndoRedo = <T extends HistoryType<T>>(initialPresentState:T) => {
         present:previousValue, //jo setValue me last value thi vo
         future:[present, ...future] //set for for redo
       }
-    })
+    });
   },
    [setState]
   );
@@ -53,7 +53,7 @@ const useUndoRedo = <T extends HistoryType<T>>(initialPresentState:T) => {
         present:nextValue, //jo undo me set ki thi;
         future:future.slice(1), // delete current first item,
       }
-    })
+    });
   },
    [setState]
   );
