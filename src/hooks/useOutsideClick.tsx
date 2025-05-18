@@ -16,6 +16,7 @@ export const useOutsideClick :React.FC<Props> = ({
         }
     };
     document.addEventListener('mousedown', handleClickOutside);
+    
     return () => {
         document.removeEventListener('mousedown', handleClickOutside);
     };
