@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react"
+import { useEffect, useState } from "react";
 
 export const useProgressDec = (duration:number,steps:number) => {
   const [progress, setProgress] = useState<number>(100);
@@ -27,4 +27,4 @@ export const useProgressDec = (duration:number,steps:number) => {
   },[steps,duration,interval]);
 
   return Math.floor(progress);
-}
+};
