@@ -5,8 +5,10 @@ interface UsePromiseTrackerProps<T> {
     error: Error | null;
     results: T[];
     loading: boolean;
-}
+};
+
 //? making type generic of <T>[] because we recieve array of promise and results in form of array also.
+
 export const usePromiseTracker = <T,>(promises: Promise<T>[]): UsePromiseTrackerProps<T> => {
     const [progress, setProgress] = useState<number>(0);
     const [results, setResults] = useState<T[]>([]);
