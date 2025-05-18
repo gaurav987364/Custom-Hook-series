@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 export const useLocalStorage = (key:string, initialValue:string) => {
     const [value, setValue] = React.useState(() => {
@@ -17,4 +17,4 @@ export const useLocalStorage = (key:string, initialValue:string) => {
        }
     }, [value,key]);
     return {value, setValue, clearStorage};
-}
+};
