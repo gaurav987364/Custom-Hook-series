@@ -12,7 +12,8 @@ interface LocationDetails {
     county?: string;
     country?: string;
     postCode?: string;
-}
+};
+
 export const useGetLocation = ()=>{
     const [location,setLocation] = useState<LocationDetails | null>(null);
     const [coordinates, setCoordinates] = useState<CordinatessResults | null>(null);
