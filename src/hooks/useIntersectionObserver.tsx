@@ -1,11 +1,12 @@
-import React, { useEffect, useState } from 'react'
+import React, { useEffect, useState } from 'react';
 
 interface Props<T>{
     targetRef: React.RefObject<T | null>,
     root?: T | null,
     rootMargin?: string,
     threshold?: number,
-}
+};
+
 export const useIntersectionObserver = <T extends Element>({
     targetRef,
     root,
@@ -39,4 +40,4 @@ export const useIntersectionObserver = <T extends Element>({
         }
     },[targetRef, rootMargin, root, threshold]);
   return {isIntersect};
-}
+};
