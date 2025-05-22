@@ -14,7 +14,7 @@ const ResizeTracker = () => {
           height: window.innerHeight
         });
       },
-      delay: 200,
+      delay: 300,
       trailing: true // Capture final state
     });
 
