@@ -1,6 +1,16 @@
 + Our hooks we made till now;
 
-useBatteryStatus()
+useBatteryStatus()   using window object 
+useBatteryStatus() {
+    if ('getBattery' in navigator) {
+        navigator.getBattery().then(battery => {
+            console.log('Battery charging:', battery.charging);
+            console.log('Battery level:', battery.level * 100 + '%');
+        });
+    } else {
+        console.log('Battery Status API not supported');
+    }
+}
 useClickOutside()
 useClipboard()
 useConfirmExit()
