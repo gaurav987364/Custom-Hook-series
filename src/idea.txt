@@ -1,29 +1,29 @@
-1. useLocalStorage
+1. useLocalStorage,
 Problem Statement: Need to manage state that persists in localStorage, like user preferences or themes.
 
 Hint: Use useState to manage the state and useEffect to sync it with localStorage.
 
-2. useDebounce
+2. useDebounce,
 Problem Statement: Handle input changes in search or form fields without overwhelming API calls or re-renders.
 
 Hint: Use setTimeout in combination with useEffect to delay updates until the user has stopped typing.
 
-3. useIntersectionObserver
+3. useIntersectionObserver,
 Problem Statement: Need to detect when an element scrolls into view for lazy-loading images or triggering animations.
 
 Hint: Use the IntersectionObserver API and integrate it with a ref in React.
 
-4. useFetch
+4. useFetch,
 Problem Statement: Simplify data fetching with built-in error handling and loading states.
 
 Hint: Wrap fetch or axios in a custom hook, returning data, error, and loading status.
 
-5. useWindowSize
+5. useWindowSize,
 Problem Statement: Access and react to changes in the browser's window dimensions.
 
 Hint: Use the resize event listener and store the width/height in state.
 
-6. usePrevious
+6. usePrevious,
 Problem Statement: Keep track of a component's previous state or prop value.
 
 Hint: Use a ref to store the value from the previous render.
