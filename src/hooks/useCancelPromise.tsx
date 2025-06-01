@@ -12,7 +12,7 @@ export const useCancelPromise =<T extends Promise<T>>(promise:T) => {
         promise.then(res).catch(rej);
     });
 
-    return {promise:wrappedPromise, cancel}
+    return {promise:wrappedPromise, cancel};
 };
 
 
