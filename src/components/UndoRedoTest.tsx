@@ -11,7 +11,7 @@ interface HistoryState<T> {
   past: T[];
   present: T;
   future: T[];
-}
+};
 
 // Generic undoable hook
 function useUndoable<T>(initialPresent: T) {
@@ -64,7 +64,7 @@ function useUndoable<T>(initialPresent: T) {
     canUndo,
     canRedo
   };
-}
+};
 
 // Test component
 const UndoableCardManager: React.FC = () => {
