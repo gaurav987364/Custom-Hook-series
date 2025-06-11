@@ -49,7 +49,7 @@ const useUndoRedo = <T extends HistoryType<T>>(initialPresentState:T) => {
 
       const nextValue = future[0]; //bcoz we set present at 1st;
       return {
-        past:[...past,present], //current present ko past me push
+        past:[...past,present], //current present ko past me push;
         present:nextValue, //jo undo me set ki thi;
         future:future.slice(1), // delete current first item,
       }
