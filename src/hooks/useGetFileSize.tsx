@@ -18,7 +18,7 @@ export const useGetFileSize = (size:number) => {
  }
 
  useEffect(()=>{
-    setFileSize(fn(size))
+    setFileSize(fn(size));
  },[size]);
 
  return {fileSize};
