@@ -8,7 +8,7 @@ export const useCancelPromise =<T extends Promise<T>>(promise:T) => {
     let cancel;
 
     const wrappedPromise = new Promise((res,rej)=>{
-        cancel = ()=> rej(new Error("Promise is Canelled."))
+        cancel = ()=> rej(new Error("Promise is Cancelled."))
         promise.then(res).catch(rej);
     });
 
