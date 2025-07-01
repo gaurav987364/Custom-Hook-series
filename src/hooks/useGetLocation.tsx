@@ -62,7 +62,7 @@ export const useGetLocation = ()=>{
         } finally {
             setLoading(false);
         }
-    }
+    };
 
     useEffect(()=>{
         // Fetch user's location and convert it into actual location details
