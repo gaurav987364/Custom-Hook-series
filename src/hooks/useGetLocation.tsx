@@ -49,7 +49,7 @@ export const useGetLocation = ()=>{
                     state: data.results[0].state,
                     county: data.results[0].county,
                     country: data.results[0].country,
-                    postCode: data.results[0].postcode
+                    postCode: data.results[0].postcode,
                 })
             } else {
                 setError("No Location found for these coordinates.")
