@@ -21,7 +21,7 @@ const useDebounce = <T extends (...args: any[]) => any>({
     const fnRef = useRef(fn);
     const leadingRef = useRef(leading); //optional
   
-    // Update refs when dependencies change
+    // Update refs when dependencies changes
     useEffect(() => {
       fnRef.current = fn;
     }, [fn]);
