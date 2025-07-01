@@ -32,7 +32,7 @@ export const useGetLocation = ()=>{
               (error) => {
                 setError(error.message);
                 reject(null);
-              }
+              },
             );
         });
     };
@@ -52,7 +52,7 @@ export const useGetLocation = ()=>{
                     postCode: data.results[0].postcode
                 })
             } else {
-                setError("No location found for these coordinates.")
+                setError("No Location found for these coordinates.")
                 return null;
             }
         } catch (error) {
