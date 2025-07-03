@@ -22,8 +22,8 @@ useDeviceOS(),
 useEventListener(),
 useFavicon(),
 useFirstRender(),
-useFullscreen()
-useHold()
+useFullscreen(),
+useHold(),
 useHover()
 useIdle()
 useInputValue()
