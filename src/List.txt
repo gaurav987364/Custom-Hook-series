@@ -18,7 +18,7 @@ useConfirmExit(),
 useCookie(),
 useCookieListener(),
 useDebounce(),
-useDeviceOS()
+useDeviceOS(),
 useEventListener()
 useFavicon()
 useFirstRender()
