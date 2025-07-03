@@ -15,7 +15,7 @@ useBatteryStatus() {
 useClickOutside(),
 useClipboard(),
 useConfirmExit(),
-useCookie()
+useCookie(),
 useCookieListener()
 useDebounce()
 useDeviceOS()
