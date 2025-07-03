@@ -10,7 +10,8 @@ useBatteryStatus() {
     } else {
         console.log('Battery Status API not supported');
     }
-}
+};
+
 useClickOutside()
 useClipboard()
 useConfirmExit()
