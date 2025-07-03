@@ -21,7 +21,7 @@ useDebounce(),
 useDeviceOS(),
 useEventListener(),
 useFavicon(),
-useFirstRender()
+useFirstRender(),
 useFullscreen()
 useHold()
 useHover()
