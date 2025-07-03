@@ -16,7 +16,7 @@ useClickOutside(),
 useClipboard(),
 useConfirmExit(),
 useCookie(),
-useCookieListener()
+useCookieListener(),
 useDebounce()
 useDeviceOS()
 useEventListener()
