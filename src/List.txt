@@ -29,7 +29,7 @@ useIdle(),
 useInputValue(),
 useIntersectionObserver(),
 useInterval(),
-useIsomorphicLayoutEffect()
+useIsomorphicLayoutEffect(),
 useKeyPress()
 useLeaveDetection()
 useLocalStorage()
