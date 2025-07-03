@@ -19,8 +19,8 @@ useCookie(),
 useCookieListener(),
 useDebounce(),
 useDeviceOS(),
-useEventListener()
-useFavicon()
+useEventListener(),
+useFavicon(),
 useFirstRender()
 useFullscreen()
 useHold()
