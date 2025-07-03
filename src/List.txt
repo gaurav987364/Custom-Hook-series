@@ -30,7 +30,7 @@ useInputValue(),
 useIntersectionObserver(),
 useInterval(),
 useIsomorphicLayoutEffect(),
-useKeyPress()
+useKeyPress(),
 useLeaveDetection()
 useLocalStorage()
 useMediaQuery()
