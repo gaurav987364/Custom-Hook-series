@@ -17,7 +17,7 @@ useClipboard(),
 useConfirmExit(),
 useCookie(),
 useCookieListener(),
-useDebounce()
+useDebounce(),
 useDeviceOS()
 useEventListener()
 useFavicon()
