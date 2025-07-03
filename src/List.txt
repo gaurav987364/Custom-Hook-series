@@ -24,8 +24,8 @@ useFavicon(),
 useFirstRender(),
 useFullscreen(),
 useHold(),
-useHover()
-useIdle()
+useHover(),
+useIdle(),
 useInputValue()
 useIntersectionObserver()
 useInterval()
