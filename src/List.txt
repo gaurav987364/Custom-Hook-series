@@ -27,8 +27,8 @@ useHold(),
 useHover(),
 useIdle(),
 useInputValue(),
-useIntersectionObserver()
-useInterval()
+useIntersectionObserver(),
+useInterval(),
 useIsomorphicLayoutEffect()
 useKeyPress()
 useLeaveDetection()
