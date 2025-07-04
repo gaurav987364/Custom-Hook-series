@@ -40,7 +40,7 @@ useOrientation(),
 usePrefersTheme(),
 usePreventBodyScroll(),
 useScript(),
-useScrollDevice()
+useScrollDevice(),
 useScrollPosition()
 useSingleEffect()
 useSize()
