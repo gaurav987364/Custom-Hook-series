@@ -46,7 +46,7 @@ useSingleEffect(),
 useSize(),
 useTabNotification(),
 useTitle(),
-useToggle()
+useToggle(),
 useUpdateEffect()
 useUrgentUpdate()
 useWindowSize()
