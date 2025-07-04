@@ -33,7 +33,7 @@ useIsomorphicLayoutEffect(),
 useKeyPress(),
 useLeaveDetection(),
 useLocalStorage(),
-useMediaQuery()
+useMediaQuery(),
 useMousePosition()
 useNetwork()
 useOrientation()
