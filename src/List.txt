@@ -37,8 +37,8 @@ useMediaQuery(),
 useMousePosition(),
 useNetwork(),
 useOrientation(),
-usePrefersTheme()
-usePreventBodyScroll()
+usePrefersTheme(),
+usePreventBodyScroll(),
 useScript()
 useScrollDevice()
 useScrollPosition()
