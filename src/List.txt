@@ -32,7 +32,7 @@ useInterval(),
 useIsomorphicLayoutEffect(),
 useKeyPress(),
 useLeaveDetection(),
-useLocalStorage()
+useLocalStorage(),
 useMediaQuery()
 useMousePosition()
 useNetwork()
