@@ -45,7 +45,7 @@ useScrollPosition(),
 useSingleEffect(),
 useSize(),
 useTabNotification(),
-useTitle()
+useTitle(),
 useToggle()
 useUpdateEffect()
 useUrgentUpdate()
