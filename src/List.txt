@@ -43,7 +43,7 @@ useScript(),
 useScrollDevice(),
 useScrollPosition(),
 useSingleEffect(),
-useSize()
+useSize(),
 useTabNotification()
 useTitle()
 useToggle()
