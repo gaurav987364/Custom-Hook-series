@@ -41,7 +41,7 @@ usePrefersTheme(),
 usePreventBodyScroll(),
 useScript(),
 useScrollDevice(),
-useScrollPosition()
+useScrollPosition(),
 useSingleEffect()
 useSize()
 useTabNotification()
