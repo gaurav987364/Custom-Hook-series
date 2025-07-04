@@ -42,7 +42,7 @@ usePreventBodyScroll(),
 useScript(),
 useScrollDevice(),
 useScrollPosition(),
-useSingleEffect()
+useSingleEffect(),
 useSize()
 useTabNotification()
 useTitle()
