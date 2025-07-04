@@ -39,7 +39,7 @@ useNetwork(),
 useOrientation(),
 usePrefersTheme(),
 usePreventBodyScroll(),
-useScript()
+useScript(),
 useScrollDevice()
 useScrollPosition()
 useSingleEffect()
