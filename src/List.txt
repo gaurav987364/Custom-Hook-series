@@ -34,7 +34,7 @@ useKeyPress(),
 useLeaveDetection(),
 useLocalStorage(),
 useMediaQuery(),
-useMousePosition()
+useMousePosition(),
 useNetwork()
 useOrientation()
 usePrefersTheme()
