@@ -36,7 +36,7 @@ useLocalStorage(),
 useMediaQuery(),
 useMousePosition(),
 useNetwork(),
-useOrientation()
+useOrientation(),
 usePrefersTheme()
 usePreventBodyScroll()
 useScript()
