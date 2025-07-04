@@ -49,4 +49,4 @@ useTitle(),
 useToggle(),
 useUpdateEffect(),
 useUrgentUpdate(),
-useWindowSize()
+useWindowSize(),
