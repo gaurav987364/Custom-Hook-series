@@ -35,7 +35,7 @@ useLeaveDetection(),
 useLocalStorage(),
 useMediaQuery(),
 useMousePosition(),
-useNetwork()
+useNetwork(),
 useOrientation()
 usePrefersTheme()
 usePreventBodyScroll()
