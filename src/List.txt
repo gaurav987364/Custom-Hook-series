@@ -48,5 +48,5 @@ useTabNotification(),
 useTitle(),
 useToggle(),
 useUpdateEffect(),
-useUrgentUpdate()
+useUrgentUpdate(),
 useWindowSize()
