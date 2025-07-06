@@ -79,7 +79,7 @@ export const useInfiniteScroll = () => {
     if(loading){
         setTimeout(()=> setLoading(false), 2000);
     }
-    window.addEventListener('scroll', setScrollToTop);
+    window.addEventListener('scroll', setScrollToTop, );
     window.addEventListener('scroll', throttleScroll);
     return ()=>{
         window.removeEventListener('scroll', setScrollToTop);
