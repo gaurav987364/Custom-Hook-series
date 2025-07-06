@@ -4,7 +4,8 @@ import { useCallback, useEffect, useRef, useState } from "react";
 interface ThrottleProps<T extends (...args:any[])=> any>{
     fn:T,
     delay:number
-}
+};
+
 export const useInfiniteScroll = () => {
   const [page,setPage] = useState<number>(1);
   //custom loading or prevent unnecessary data fetching
