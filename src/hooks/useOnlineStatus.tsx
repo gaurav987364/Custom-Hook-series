@@ -10,7 +10,6 @@ export const useOnlineStatus = () => {
     setIsOnline(false);
   };
 
-
   useEffect(()=>{
     window.addEventListener('online', handleOnline);
     window.addEventListener('offline', handleOffline);
