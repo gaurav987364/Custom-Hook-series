@@ -16,7 +16,7 @@ Hint: Use the IntersectionObserver API and integrate it with a ref in React.
 4. useFetch,
 Problem Statement: Simplify data fetching with built-in error handling and loading states.
 
-Hint: Wrap fetch or axios in a custom hook, returning data, error, and loading status.
+Hint:- Wrap fetch or axios in a custom hook, returning data, error, and loading status.
 
 5. useWindowSize,
 Problem Statement: Access and react to changes in the browser's window dimensions.
