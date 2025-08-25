@@ -33,7 +33,7 @@ Problem Statement: Detect whether an element is being hovered over.
 
 Hint: Use onMouseEnter and onMouseLeave events in combination with a ref.
 
-8. useToggle
+8. useToggle,
 Problem Statement: Simplify the logic for toggling boolean states (like modals or dropdowns).
 
 Hint: Use useState and return the state along with a function to toggle it.
