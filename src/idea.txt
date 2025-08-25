@@ -43,7 +43,7 @@ Problem Statement: Track the scroll position of a page or an element.
 
 Hint: Use the scroll event listener and store the scroll position in state.
 
-10. useDarkMode
+10. useDarkMode,
 Problem Statement: Enable dark mode with a toggle, persisting the preference across sessions.
 
 Hint: Combine useLocalStorage with a class toggler for the body element.
