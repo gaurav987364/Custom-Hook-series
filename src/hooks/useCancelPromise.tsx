@@ -28,5 +28,5 @@ export const useCancelPromise =<T extends Promise<T>>(promise:T) => {
 // getting results:-
 // promise.then(console.log).catch((err)=>console.error(err)); 
 
-// cancel promise
+// cancel promise :-
 // setTimeout(cancel!,1000);
