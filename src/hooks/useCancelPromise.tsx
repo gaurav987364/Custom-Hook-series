@@ -16,7 +16,7 @@ export const useCancelPromise =<T extends Promise<T>>(promise:T) => {
 };
 
 
-//Usage example;
+// Usage example;
 // const {promise,cancel} = useCancelPromise(
 //     new Promise((resolve)=>{
 //         setTimeout(() => {
