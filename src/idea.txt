@@ -23,7 +23,7 @@ Problem Statement: Access and react to changes in the browser's window dimension
 
 Hint: Use the resize event listener and store the width/height in state.
 
-6. usePrevious,
+6.) usePrevious,
 Problem Statement: Keep track of a component's previous state or prop value.
 
 Hint: Use a ref to store the value from the previous render...
