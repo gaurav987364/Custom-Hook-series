@@ -18,7 +18,7 @@ Problem Statement: Simplify data fetching with built-in error handling and loadi
 
 Hint:- Wrap fetch or axios in a custom hook, returning data, error, and loading status.
 
-5. useWindowSize,
+5.) useWindowSize,
 Problem Statement: Access and react to changes in the browser's window dimensions.
 
 Hint: Use the resize event listener and store the width/height in state.
