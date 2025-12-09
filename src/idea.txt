@@ -8,7 +8,7 @@ Problem Statement: Handle input changes in search or form fields without overwhe
 
 Hint: Use setTimeout in combination with useEffect to delay updates until the user has stopped typing.
 
-3. useIntersectionObserver,
+3.) useIntersectionObserver,
 Problem Statement: Need to detect when an element scrolls into view for lazy-loading images or triggering animations.
 
 Hint: Use the IntersectionObserver API and integrate it with a ref in React.
