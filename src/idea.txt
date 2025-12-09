@@ -1,4 +1,4 @@
-1. useLocalStorage,
+1.) useLocalStorage,
 Problem Statement: Need to manage state that persists in localStorage, like user preferences or themes.
 
 Hint: Use useState to manage the state and useEffect to sync it with localStorage.
