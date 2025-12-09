@@ -3,7 +3,7 @@ Problem Statement: Need to manage state that persists in localStorage, like user
 
 Hint: Use useState to manage the state and useEffect to sync it with localStorage.
 
-2. useDebounce,
+2.) useDebounce,
 Problem Statement: Handle input changes in search or form fields without overwhelming API calls or re-renders.
 
 Hint: Use setTimeout in combination with useEffect to delay updates until the user has stopped typing.
