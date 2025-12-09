@@ -13,7 +13,7 @@ Problem Statement: Need to detect when an element scrolls into view for lazy-loa
 
 Hint: Use the IntersectionObserver API and integrate it with a ref in React.
 
-4. useFetch,
+4.) useFetch,
 Problem Statement: Simplify data fetching with built-in error handling and loading states.
 
 Hint:- Wrap fetch or axios in a custom hook, returning data, error, and loading status.
