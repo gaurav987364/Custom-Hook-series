@@ -48,7 +48,7 @@ Problem Statement: Enable dark mode with a toggle, persisting the preference acr
 
 Hint:-> Combine useLocalStorage with a class toggler for the body element.
 
-Bonus Ideas :-
+Bonus Ideas :->
 useOnlineStatus: Detect if the user is online or offline.
 
 useOutsideClick: Detect clicks outside of a specified element for dropdowns or modals.
