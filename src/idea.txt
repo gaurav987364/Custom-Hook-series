@@ -46,7 +46,7 @@ Hint: Use the scroll event listener and store the scroll position in state.
 10.) useDarkMode,
 Problem Statement: Enable dark mode with a toggle, persisting the preference across sessions.
 
-Hint: Combine useLocalStorage with a class toggler for the body element.
+Hint:- Combine useLocalStorage with a class toggler for the body element.
 
 Bonus Ideas
 useOnlineStatus: Detect if the user is online or offline.
