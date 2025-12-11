@@ -21,7 +21,7 @@ const ResizeTracker = () => {
     function getCalls(message: string){
         console.log(message, "called...");
     };
-    const callthis = useThrottle({fn:getCalls,delay:400,leading:true});
+    const Callthis = useThrottle({fn:getCalls,delay:400,leading:true});
     console.log(callthis("hello"));
     console.log(callthis("hi kes ho"))
     console.log(callthis("me bahdiya hu tum btaaoa"))
