@@ -21,7 +21,7 @@ export const useCancelPromise =<T extends Promise<T>>(promise:T) => {
 //     new Promise((resolve)=>{
 //         setTimeout(() => {
 //             resolve("Data....")
-//         }, 2000);
+//         }, 000);
 //     })
 // );
 
