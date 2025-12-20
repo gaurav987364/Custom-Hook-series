@@ -70,7 +70,7 @@ export const useUrlInfo = (): UrlInfo => {
 
 
 // ✅ Fully reactive – updates when URL changes;
-// ✅ Works in SSR (Next.js, etc.)
+// ✅ Works in SSR (Next.js, etc.);
 // ✅ Easier query params access
 // ✅ Listens for popstate and hashchange
 
