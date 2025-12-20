@@ -9,7 +9,7 @@ interface UrlInfo {
   hostname: string;
   href: string;
   origin: string;
-}
+};
 
 export const useUrlInfo = (): UrlInfo => {
   const getUrlInfo = (): UrlInfo => {
