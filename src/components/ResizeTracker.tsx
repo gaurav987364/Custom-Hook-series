@@ -26,7 +26,7 @@ const ResizeTracker = () => {
     console.log(Callthis("hi kes hoo"))
     console.log(Callthis("me bahdiya hu tum btaao"))
     console.log(Callthis("chal chutuyee khatam ho gyaa"))
-    console.log(Callthis("okokoko chal bye...."))
+    console.log(Callthis("okokoko chal bye..."))
   
     useEffect(() => {
       window.addEventListener('resize', handleResize);
