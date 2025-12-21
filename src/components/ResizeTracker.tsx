@@ -24,7 +24,7 @@ const ResizeTracker = () => {
     const Callthis = useThrottle({fn:getCalls,delay:400,leading:true});
     console.log(Callthis("helloo"));
     console.log(Callthis("hi kes hoo"))
-    console.log(Callthis("me bahdiya hu tum btaaoa"))
+    console.log(Callthis("me bahdiya hu tum btaao"))
     console.log(Callthis("chal chutuyee khatam ho gya"))
     console.log(Callthis("okokoko chal bye...."))
   
