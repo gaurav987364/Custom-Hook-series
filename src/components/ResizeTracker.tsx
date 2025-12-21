@@ -15,7 +15,7 @@ const ResizeTracker = () => {
         });
       },
       delay: 300,
-      trailing: true // Capture Final
+      trailing: true // Capture Final S
     });
 
     function getCalls(message: string){
