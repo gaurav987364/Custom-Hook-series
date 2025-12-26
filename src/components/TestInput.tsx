@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState } from 'react';
 import useDebounce from '../hooks/useDebounce';
 
 const TestInput = () => {
