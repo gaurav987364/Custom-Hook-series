@@ -8,7 +8,7 @@ const TestInput = () => {
   const handleSearch = useDebounce({
     fn: (searchTerm: string) => {
       console.log('Searching for :-> ', searchTerm);
-      // API Call Here.
+      // API Call Here..
     },
     delay: 300,
     leading: false
