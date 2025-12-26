@@ -11,7 +11,7 @@ const TestInput = () => {
       // API Call Here...
     },
     delay: 300,
-    leading: false
+    leading: false,
   });
 
   return (
