@@ -48,7 +48,7 @@ function useUndoable<T>(initialPresent: T) {
       return {
         past: [...past, present],
         present: next,
-        future: future.slice(1)
+        future: future.slice(1),
       };
     });
   }, []);
