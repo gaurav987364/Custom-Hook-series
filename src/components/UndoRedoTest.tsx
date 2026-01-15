@@ -62,7 +62,7 @@ function useUndoable<T>(initialPresent: T) {
     undo,
     redo,
     canUndo,
-    canRedo
+    canRedo,
   };
 };
 
