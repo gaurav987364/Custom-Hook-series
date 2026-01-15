@@ -36,7 +36,7 @@ function useUndoable<T>(initialPresent: T) {
       return {
         past: past.slice(0, -1),
         present: previous,
-        future: [present, ...future]
+        future: [present, ...future],
       };
     });
   }, []);
