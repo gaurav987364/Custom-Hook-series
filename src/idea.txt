@@ -28,7 +28,7 @@ Problem Statement: Keep track of a component's previous state or prop value.
 
 Hint: Use a ref to store the value from the previous render...
 
-7.) useHover
+7.) useHover,
 Problem Statement: Detect whether an element is being hovered over.
 
 Hint:-> Use onMouseEnter and onMouseLeave events in combination with a ref.
