@@ -11,7 +11,7 @@ Hint: Use setTimeout in combination with useEffect to delay updates until the us
 3.) useIntersectionObserver,
 Problem Statement: Need to detect when an element scrolls into view for lazy-loading images or triggering animations.
 
-Hint: Use the IntersectionObserver API and integrate it with a ref in React.
+Hint:- Use the IntersectionObserver API and integrate it with a ref in React.
 
 4.) useFetch,
 Problem Statement: Simplify data fetching with built-in error handling and loading states.
