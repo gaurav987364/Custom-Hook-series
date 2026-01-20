@@ -6,7 +6,7 @@ Hint: Use useState to manage the state and useEffect to sync it with localStorag
 2.) useDebounce,
 Problem Statement: Handle input changes in search or form fields without overwhelming API calls or re-renders.
 
-Hint: Use setTimeout in combination with useEffect to delay updates until the user has stopped typing.
+Hint:- Use setTimeout in combination with useEffect to delay updates until the user has stopped typing.
 
 3.) useIntersectionObserver,
 Problem Statement: Need to detect when an element scrolls into view for lazy-loading images or triggering animations.
