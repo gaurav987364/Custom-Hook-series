@@ -5,7 +5,7 @@ import { useEffect, useRef } from "react";
 // Leading is optional because we don't want, but it is main feature of production.
 interface DebounceOptions {
     leading?: boolean;
-}
+};
   
 interface DebounceProps<T extends (...args: any[]) => any> extends DebounceOptions {
     fn: T;
