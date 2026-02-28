@@ -10,7 +10,7 @@ interface DebounceOptions {
 interface DebounceProps<T extends (...args: any[]) => any> extends DebounceOptions {
     fn: T;
     delay: number;
-}
+};
   
 const useDebounce = <T extends (...args: any[]) => any>({
     fn,
