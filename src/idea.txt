@@ -41,7 +41,7 @@ Hint:-> Use useState and return the state along with a function to toggle it.
 9. useScrollPosition,
 Problem Statement: Track the scroll position of a page or an element.
 
-Hint:- Use the scroll event listener and store the scroll position in state.
+Hint:-> Use the scroll event listener and store the scroll position in state.
 
 10. useDarkMode,
 Problem Statement: Enable dark mode with a toggle, persisting the preference across sessions.
