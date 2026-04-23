@@ -4,7 +4,7 @@
 
 export const useCancelPromise =<T extends Promise<T>>(promise:T) => {
  
-    //let variable cancel to store function
+    // let variable cancel to store function
     let cancel;
 
     const wrappedPromise = new Promise((res,rej)=>{
