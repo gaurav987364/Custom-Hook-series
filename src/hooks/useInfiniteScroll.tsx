@@ -58,7 +58,7 @@ export const useInfiniteScroll = () => {
   //throttle a fuction
   const throttleScroll = useThrottle({fn:getScrollStats,delay:1000});
 
-  //setting the state true when user scroll 30% of page
+  //setting the state true when user scroll 30% of page.
   const setScrollToTop = ()=>{
     const scrollTop = document.documentElement.scrollTop;
     setShowScrollToTop(scrollTop > 300);
