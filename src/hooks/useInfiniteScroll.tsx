@@ -63,7 +63,7 @@ export const useInfiniteScroll = () => {
     const scrollTop = document.documentElement.scrollTop;
     setShowScrollToTop(scrollTop > 300);
   };
-  //function to scroll to top of page when user click on button
+  //function to scroll to top of page when user click on button.
   const ScrollToTop = ()=>{
     window.scrollTo({top:0, behavior:'smooth'});
   };
