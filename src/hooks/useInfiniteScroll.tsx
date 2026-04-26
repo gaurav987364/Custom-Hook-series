@@ -10,7 +10,7 @@ export const useInfiniteScroll = () => {
   const [page,setPage] = useState<number>(1);
   //custom loading or prevent unnecessary data fetching.
   const [loading, setLoading] = useState<boolean>(false);
-  //provide a button for scroll to top of page
+  //provide a button for scroll to top of page.
   const [showScrollToTop, setShowScrollToTop] = useState<boolean>(false);
 
   const getScrollStats = ()=>{
