@@ -7,6 +7,6 @@ const App:React.FC = () => {
       <UndoableCardManager/>
     </div>
   )
-}
+};
 
 export default App;
