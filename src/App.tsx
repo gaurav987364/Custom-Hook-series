@@ -1,4 +1,4 @@
-import React from "react"
+import React from "react";
 import UndoableCardManager from "./components/UndoRedoTest"
 
 const App:React.FC = () => {
